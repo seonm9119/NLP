@@ -15,7 +15,7 @@ The purpose of this problem is to verify the ability to implement the part of co
 To predict the label of input sentence, first convert each character in the word, which is tokenized and lemmatized, to dense vector. After character embedding, convert each word in the sentence by using it. Next, convert sentences to vector by using 1D CNN and finally, train classifier and get the prediction about the input sentences
 
 ### Assignment 3 - Classification & POS Tagging
-*kaggle link : https://www.kaggle.com/competitions/nlp-lab3-problem1*
+*kaggle link : https://www.kaggle.com/competitions/nlp-lab3-problem1*\n
 *kaggle link : https://www.kaggle.com/competitions/nlp-lab3-problem2*
 
 To predict the input sentence label, use given glove word embedding dictionary file. Trough embedding layer, convert each time step token to vector and input to 3 layer RNN. In the last, through the classifier layer, predict the target label on the last time step.
