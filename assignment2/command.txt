@@ -1,0 +1,22 @@
+1. Show the structure of your codes
+
+nlp_lab2_namiseo_20214029/
+├── main.py
+├── utils.py
+├── models
+│   ├── Embedding.py
+│   └── Model.py
+├── command.txt
+├── data
+│   ├── sent_class.pred.csv
+│   ├── sent_class.test.csv
+│   └── sent_class.train.csv
+├── README.md
+└── result
+    ├── 20214029_seonami_sent_class.pred(best).csv
+    └── 20214029_seonami_sent_class.pred.csv
+
+
+2. Give the example command to reproduce your result
+max-len-w : 30 , max-len-s : 40 , char-dim 100 , lr : 3e-4 , n_epochs : 200 , batch-size 2250
+$ python main.py
